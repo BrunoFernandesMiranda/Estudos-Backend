@@ -1,7 +1,13 @@
-nome = "Bruno Fernandes"
-idade = 18
-peso = 136.7
 
-print(nome)
-print(idade)
-print(peso)
+print("descubra o fatorial")
+
+num = int(input("Digite um numero: "))
+
+fat = 1
+
+for f in range(2, num+1):
+    fat *= f
+
+print(f"O Fatorial de {num} é {fat}")
+    
+
